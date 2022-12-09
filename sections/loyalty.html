@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/stylesLoyalt.css">
+    <link rel="stylesheet" href="../css/hover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>
+    <script src="../javascript/wow.min.js"></script>
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+    <script src="../fancybox/jquery.fancybox.js"></script>
+</head>
+<body>
+    <i id="subir" class="fas fa-arrow-circle-up" crossorigin="anonymous"></i>
+    <div class="testhere">
+        <h3>Order test for <b>COVID-19</b>here</h3>
+    </div>
+    <header class="ancho">
+        <div class="logo-and-menu">
+            <div class="logo-and-button">
+                <a href="../index.html"><img src="../images/logo.svg" alt=""></a>
+                <div id="menu" onclick="aparece()">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+               </div>
+            </div>
+            <nav id="hide">
+                <ul id="contenedormenu" class="ancho2">
+                    <div class="close">
+                        <a id="cerrar" href="#"><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="#">For patients</a></li>
+                    <li><a href="#">Analysis and prices</a></li>
+                    <li><a href="#">Loyalti program</a></li>
+                    <li><a href="#">Quality control</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icon-header">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div class="circle"></div>
+        </div>
+    </header>
+    <!-- Combinar secciones loyalti y quality -->
+    <Section  class="ancho cont-gallery">
+        <h1>Our loyalty program</h1>
+        <p>We care about our clients. Your health is the priority of our lab. <br>
+            We care about our clients. Your health is the priority of our lab. We keep up with the times and apply the latest research techniques, regularly improve staff skills and automate document flow.</p>
+            <div id="galeria" class="ancho contenedor-fotos gradiente  wow animate__animated animate__bounceInLeft">
+                <article class="fancy-note white wow animate__animated animate__bounceInleft">
+                    <a href="../images/fancybox1.png" class="fancybox" title="Nose" rel="gallery1">
+                        <img src="../images/fancybox1.png" alt="">
+                    </a>
+                    <h2>Going on a trip?</h2>
+                    <p>-10% for covid-19 analysis</p>
+                </article>
+                <article class="fancy-note blue wow animate__animated animate__bounceInDown animate__delay-1s">
+                    <a href="../images/fancybox2.png" class="fancybox" title="Nose" rel="gallery1">
+                        <img src="../images/fancybox2.png" alt="">
+                    </a>
+                    <h2>-20% for ultrasonography</h2>
+                    <p>Ultrasonography out of turn</p>
+                </article>
+                <article class="fancy-note yellow wow animate__animated animate__bounceInRight">
+                    <a href="../images/fancybox3.png" class="fancybox" title="Nose" rel="gallery1">
+                        <img src="../images/fancybox3.png" alt="">
+                    </a>
+                    <h2>Online payment discount 10%</h2>
+                    <p>For all analyzes in the order</p>
+                </article>
+                <article class="fancy-note white wow animate__animated animate__bounceInLeft animate__delay-2s">
+                    <a href="../images/fancybox4.png" class="fancybox" title="Nose" rel="gallery1">
+                        <img src="../images/fancybox4.png" alt="">
+                    </a>
+                    <h2>Nurse home call</h2>
+                    <p>The nurse will come to your home or office</p>
+                </article>
+                <article class="fancy-note blue wow animate__animated animate__bounceInUp animate__delay-3s">
+                    <a href="../images/fancybox5.png" class="fancybox" title="Nose" rel="gallery1">
+                        <img src="../images/fancybox5.png" alt="">
+                    </a>
+                    <h2>Get tested - help children</h2>
+                    <p>Taking care of health you save children!</p>
+                </article>
+                <article class="fancy-note yellow wow animate__animated animate__bounceInRight animate__delay-2s">
+                    <a href="../images/fancybox6.png" class="fancybox" title="foto6" rel="gallery1">
+                        <img src="../images/fancybox6.png" alt="">
+                    </a>
+                    <h2>Saturation for free</h2>
+                    <p>Free saturation level measurement</p>
+                </article>
+            </div>
+    </Section>
+    <br><br><br>
+    <section class="acordeon ancho wow animate__animated animate__bounceInUp">
+        <div class="quality">
+            <h1>Quality control system</h1>
+            <p class="qualsub">All tests are double confirmed – technological and medical. Our laboratory has an effective quality control system. We ensure reliable registration, storage and quick search of research results.</p>
+            <article id="ques-ask1" class="quealitydown">
+                <p id="quality1">What is quality in laboratory diagnostics? </p>
+                <i id="ico1" class="fa-solid fa-chevron-down"></i>
+                <i id="ico2" class="fa-solid fa-chevron-up cerrar"></i>
+            </article>
+            <div class="info_acordeon">
+                <p>Quality is a properly and timely prescribed test for a patient in need of it, performed at a sufficient analytical level with the necessary information for its interpretation.</p>
+                <br>
+                <p>The challenge for each laboratory, through a quality assurance system, is to create a robust set of tools that identify errors and carry out targeted activities that minimize them.</p>
+            </div>
+            <article id="ques-ask2" class="quealitydown">
+                <p id="quality2">Laboratory analysis stages</p>
+                <i id="ico11" class="fa-solid fa-chevron-down"></i>
+                <i id="ico22" class="fa-solid fa-chevron-up cerrar"></i>
+            </article>
+            <div class="info_acordeon">
+                <p>The products of the medical laboratory are an authorized report containing the results of a laboratory study, as well as patient data (name, age, sex, diagnosis), the type of biological sample, the time it was taken and delivered to the laboratory, current reference intervals for each analyte and other information. In other words, the laboratory produces and supplies to the clinician to varying degrees reliable, more often objective diagnostic information.</p>
+            </div>
+            <article id="ques-ask3" class="quealitydown">
+                <p id="quality3">Quality material retrieval</p>
+                <i id="ico111" class="fa-solid fa-chevron-down"></i>
+                <i id="ico222" class="fa-solid fa-chevron-up cerrar"></i>
+            </article>
+            <div class="info_acordeon">
+                <p>The use of vacuum systems is a necessary step in creating standard conditions for taking, transporting and storing biological samples of patients. The introduction of such systems affects all stages of laboratory research and generally transfers the organization of the laboratory to another level. More than 95% of blood samples in the United States and Western Europe are taken using vacuum systems.</p>
+                <br>
+                <p>An important role is played by the application form for analyses. A well-designed and correctly completed application form simplifies the procedure for prescribing tests by a doctor to a particular patient, and also minimizes the likelihood of errors due to the “human factor.”</p>
+            </div>
+            <article id="ques-ask4" class="quealitydown">
+                <p id="quality4">Periodic external and internal inspections</p>
+                <i id="ico1111" class="fa-solid fa-chevron-down"></i>
+                <i id="ico2222" class="fa-solid fa-chevron-up cerrar"></i>
+            </article>
+            <div class="info_acordeon">
+                <p>Existing ideas about ensuring the quality of laboratory results as a qualitative performance of only the analytical stage is very narrow and cannot be considered a full and sufficient basis for ensuring the guaranteed quality of work of specialists in clinical laboratory diagnostics. Their work may be fruitless with an incorrectly drafted application for research, in violation of the rules for blood collection, errors made during the transportation of biomaterial to the laboratory.</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="boton">
+        <br><br><br>
+        <a href="#" class="btn_modal hvr-bounce-to-left" id="Btn">Anuncio Modal</a>
+        <br><br><br>
+    </section>
+    <section id="modal" class="fondomodal">
+        <div class="contenidomodal">
+            <div class="estructuramodal">
+                <h1>Make an appointment</h1>
+                <i id="cerrarbtn" class="cerrarmodal fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class="inputs">
+                <span>Tell us about your requirements and we`ll get back to you.</span>
+                <br>
+                <p>Name*</p>
+                <input class="form-input" type="text" placeholder="Your name*">
+                <p>Your email:*</p>
+                <input class="form-input" type="text" placeholder="What's your email?">
+                <p>Your phone:*</p>
+                <input class="form-input" type="text" placeholder="Enter your phone number">
+                <p>Request:*</p>
+                <input class="form-input" type="text" placeholder="Tell us how we can help!">
+            </div>
+            <div class="appointment">
+                <a href="#" class="makemodal hvr-bounce-to-left">Make an appointment</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="infofooter ancho">
+            <article class="available">
+                <br>
+                <figure>
+                    <img src="../images/logo_foot.svg" alt="">
+                </figure>
+                <br>
+                <p>We are available 24/7 to help answer questions and solve your problems.</p>
+                <br>
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i> 
+                    <p> +1 (256) 10 87 000</p>
+                </div>
+                <br>
+                <div class="contact">
+                    <i class="fa-solid fa-comment"></i>
+                    <p> Chat</p>
+                </div>
+                <br><br>
+                <div class="social">
+                    <p>Get Social:</p>
+                    <div class="social-network">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </article>
+            <article class="stay">
+                <h2>Stay in touch</h2>
+                <p class="recognized">Recognized national leader in quality and information service in laboratory diagnostics. Priority selection lab.</p><br><br>
+                <div>
+                    <input class="enter-name" type="text" placeholder="Enter your name">
+                    <a href="#" class="subscribe hvr-bounce-to-left">Subscribe now</a>
+                </div>
+                <p>I agree to the <a class="conditions" href="#">Privacy Policy</a> and <a class="conditions" href="#">Terms of Use</a>, and want to receive news</p>
+            </article>
+        </div>
+        <hr>
+        <br>
+        <div class="copyright ancho">
+            <p>Zemez ©. All rights reserved.</p>
+            <div class="terminos">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+            <!-- https://www.youtube.com/watch?v=NxutOVA7DbI el video responsive xdxd -->
+        </div>
+    </footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5404230563963!2d-0.1217423845658895!3d51.50330061882441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2sOjo%20de%20Londres!5e0!3m2!1ses-419!2smx!4v1670281875945!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="gray"></iframe>
+    <script>
+        var fondomodal = document.getElementById("modal");
+        var btn = document.getElementById("Btn");
+        var cerrar = document.getElementById("cerrarbtn");
+
+        function tiempo() {
+        fondomodal.style.display = "block";
+        }
+        setTimeout(tiempo, 5000);
+
+        btn.onclick = function () {
+        fondomodal.style.display = "block";
+        };
+        cerrar.onclick = function () {
+        fondomodal.style.display = "none";
+        };
+        window.onclick = function (event) {
+        if (event.target == fondomodal) {
+            fondomodal.style.display = "none";
+        }
+        };
+
+        $(document).ready(function () {
+            $("#subir").click(function () {
+                $("html,body").animate(
+                    {
+                        scrollTop: "0px",
+                    },
+                    600
+                );
+            });
+        });
+
+        new WOW().init();
+    </script>
+    <script src="../javascript/funciones.js"></script>
+    <script src="../javascript/funcionesLoyalt.js"></script>
+</body>
+</html>

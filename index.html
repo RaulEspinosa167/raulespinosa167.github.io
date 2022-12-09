@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- estilos imports y funciones -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stylesLoyalt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/hover.css">
+    <!-- iconos -->
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <!-- javascript -->
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>
+    <script src="javascript/responsiveslides.min.js"></script>
+    <script src="javascript/wow.min.js"></script>
+    <!-- carrusel -->
+    <script src="javascript/jquery.tinycarousel.min.js"></script>
+</head>
+<body>
+    <i id="subir" class="fas fa-arrow-circle-up" crossorigin="anonymous"></i>
+    <div class="testhere">
+        <h3>Order test for <b>COVID-19</b>here</h3>
+    </div>
+    <header class="ancho">
+        <div class="logo-and-menu">
+            <div class="logo-and-button">
+                <a href="#"><img src="images/logo.svg" alt=""></a>
+                <div id="menu" onclick="aparece()">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+               </div>
+            </div>
+            <nav id="hide">
+                <ul id="contenedormenu" class="ancho2">
+                    <div class="close">
+                        <a id="cerrar" href="#"><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                    <li><a href="sections/aboutus.html">About us</a></li>
+                    <li><a href="#">For patients</a></li>
+                    <li><a href="#">Analysis and prices</a></li>
+                    <li><a href="sections/loyalty.html">Loyalty program</a></li>
+                    <li><a href="#">Quality control</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icon-header">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div class="circle"></div>
+        </div>
+    </header>
+    <div class="conten-slider">
+        <ul class="rslides2" id="rslides2">
+            <li><img src="images/img1.jpg" alt=""></li>
+            <li><img src="images/img2.jpg" alt=""></li>
+            <li><img src="images/img3.jpg" alt=""></li>
+        </ul>
+        <div class="texto-slide">
+            <h1>Keep up about Your health</h1>
+            <p>Lots of people trust us. Lots of certificates and satisfied clients prove this.</p>
+            <a id="formbutton" href="#">Make an appointment</a>
+        </div>
+    </div>
+    <br><br>
+    <section class="everything ancho">
+        <h1>Everything you need to grow your team</h1>
+        <p>We offer you to become a partner in the field of medical tests</p>
+        <div class="contenedor-offer">
+            <article class="offer black ancho wow animate__animated animate__bounceInLeft">
+                <div>
+                    <img src="images/article1.svg" alt="">
+                </div>
+                <h2>The largest network of centers</h2>
+                <p>In the laboratory office, customers can take more than 1000 types of tests and studies.</p>
+            </article>
+            <article class="offer black ancho wow animate__animated animate__bounceInUp animate__delay-1s">
+                <div>
+                    <img src="images/article2.svg" alt="">
+                </div>
+                <h2>Comfortable conditions of testing</h2>
+                <p>We provide full support at all stages of the start-up and during the operation of the laboratory office.</p>
+            </article>
+            <article class="offer wow animate__animated animate__bounceInRight animate__delay-2s">
+                <div>
+                    <img src="images/article3.svg" alt="">
+                </div>
+                <h2>Confirmed quality research</h2>
+                <p>More than 1000 laboratory tests, including unique ones.</p>
+            </article>
+        </div>
+        <br><br><br>
+    </section>
+    <section class="parrallaxas">
+        <div class="infoprllx">
+            <h1>Successful completion of the external quality assessment</h1>
+            <p>Unique analyses are available to our customers. Among them are tests for rare diseases, the most modern onco-markers and much more.</p>
+            <a href="#">About us</a>
+          </div>
+    </section>
+    <section class="seccion-carrusel">
+        <br><br>
+        <h1>Best analysis ever</h1>
+        <p>We offer over 1800 types of laboratory tests</p>
+        <div class="carrusel-flechas ancho" id="slider">
+            <!-- contenedor de carrusel y botones -->
+            <div class="viewport wow animate__animated animate__bounceInUp"><!-- contenedor de carrusel -->
+                <ul class="overview">
+                    <li>
+                        <article class="carrusel-card card-blue">
+                            <img src="images/carruselflechas.png" alt="">
+                            <h2>Cytologic studies</h2>
+                            <p>High accuracy of studies guaranteed. Short lead times.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="carrusel-card card-white">
+                            <img src="images/carruselflechas2.png" alt="">
+                            <h2>Biochemical studies</h2>
+                            <p>The largest list of tests. We guarantee confidentiality and comfort.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="carrusel-card card-yellow">
+                            <img src="images/carruselflechas3.png" alt="">
+                            <h2>Hormonal research</h2>
+                            <p>We determine the immune and hormonal status of the patient. High level of security.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="carrusel-card card-white">
+                            <img src="images/carruselflechas4.png" alt="">
+                            <h2>Hematologic</h2>
+                            <p>Widely used when examined by many doctors to diagnose anemia, immunodeficiency, the presence of viruses and inflammatory processes.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="carrusel-card card-blue">
+                            <img src="images/carruselflechas5.png" alt="">
+                            <h2>Immunological</h2>
+                            <p>The tests are performed by a highly qualified and experienced team of molecular biologists.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="carrusel-card card-white">
+                            <img src="images/carruselflechas6.png" alt="">
+                            <h2>Urinalysis</h2>
+                            <p>Modern laboratory equipment, software for working with graphic images.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="carrusel-card card-yellow">
+                            <img src="images/carruselflechas7.png" alt="">
+                            <h2>Feces</h2>
+                            <p>The degree of accuracy of laboratory results in inter-laboratory quality control is 100%.</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <div class="btns_car wow animate__animated animate__bounceInLeft animate__delay-1s">
+                <a class="btn prev" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                <a class="btn next" href="#"><i class="fa-solid fa-chevron-right"></i></i></a>
+            </div>
+            <br><br>
+        </div>
+    </section>
+    <footer>
+        <div class="infofooter ancho">
+            <article class="available">
+                <figure>
+                    <img src="images/logo_foot.svg" alt="">
+                </figure>
+                <br>
+                <p>We are available 24/7 to help answer questions and solve your problems.</p>
+                <br>
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i> 
+                    <p> +1 (256) 10 87 000</p>
+                </div>
+                <br>
+                <div class="contact">
+                    <i class="fa-solid fa-comment"></i>
+                    <p> Chat</p>
+                </div>
+                <br><br>
+                <div class="social">
+                    <p>Get Social:</p>
+                    <div class="social-network">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </article>
+            <article class="stay">
+                <br><br>
+                <h2>Stay in touch</h2>
+                <p class="recognized">Recognized national leader in quality and information service in laboratory diagnostics. Priority selection lab.</p><br><br>
+                <div>
+                    <input class="enter-name" type="text" placeholder="Enter your name">
+                    <a href="#" class="subscribe hvr-bounce-to-left">Subscribe now</a>
+                </div>
+                <p>I agree to the <a class="conditions" href="#">Privacy Policy</a> and <a class="conditions" href="#">Terms of Use</a>, and want to receive news</p>
+            </article>
+        </div>
+        <hr>
+        <br>
+        <div class="copyright ancho">
+            <p>Zemez ©. All rights reserved.</p>
+            <div class="terminos">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+            <!-- https://www.youtube.com/watch?v=NxutOVA7DbI el video responsive xdxd -->
+        </div>
+    </footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5404230563963!2d-0.1217423845658895!3d51.50330061882441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2sOjo%20de%20Londres!5e0!3m2!1ses-419!2smx!4v1670281875945!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="gray"></iframe>
+    <script src="javascript/funciones.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#slider').tinycarousel();
+        });
+        new WOW().init();
+    </script>
+</body>
+</html>
